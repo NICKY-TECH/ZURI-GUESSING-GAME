@@ -19,7 +19,7 @@ gameOn.question(`please, enter your username\n`, (username) => {
 });
 
 function start(random) {
-  gameOn.question(`i'm holding a number between 1 and ${n}, can you guess what that number?\n`, (answer) => {
+  gameOn.question(`i'm holding a number between 1 and ${n}, can you guess what that number is?\n`, (answer) => {
     if (answer.trim() == random) {
       correct();
     }
