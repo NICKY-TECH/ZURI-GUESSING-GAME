@@ -61,7 +61,6 @@ function goOn() {
     } else {
       console.log(`${res} is an invalid response, try again`);
     }
-
   })
 }
 
